@@ -1,0 +1,17 @@
+{
+    "name": "flashcards_app",
+    "type": "module",
+    "scripts": {
+        "build": "tsc",
+        "start": "npm run build && node dist/flashcards.js"
+    },
+    "dependencies": {
+        "papaparse": "^5.5.3"
+    },
+    "devDependencies": {
+        "@types/node": "^25.6.0",
+        "@types/papaparse": "^5.5.2",
+        "ts-node": "^10.9.2",
+        "typescript": "^6.0.2"
+    }
+}
